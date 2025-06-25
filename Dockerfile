@@ -20,6 +20,6 @@ ENV PATH /home/freetak/.local/bin:$PATH
 RUN pip install --upgrade pip ; pip install setuptools wheel poetry ; pip install --force-reinstall "ruamel.yaml<0.18"
 RUN pip install --no-build-isolation --editable .
 
-VOLUME /opt/fts
+＃VOLUME /opt/fts
 
 CMD [ "/home/freetak/docker-run.sh" ]
