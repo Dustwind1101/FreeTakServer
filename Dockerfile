@@ -21,5 +21,5 @@ RUN pip install --upgrade pip ; pip install setuptools wheel poetry ; pip instal
 RUN pip install --no-build-isolation --editable .
 
 #VOLUME /opt/fts
-fix: removed VOLUME for Railway compatibility
+
 CMD [ "/home/freetak/docker-run.sh" ]
